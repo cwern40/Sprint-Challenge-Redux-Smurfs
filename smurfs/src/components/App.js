@@ -12,6 +12,7 @@ class App extends Component {
   }
 
   render() {
+    console.log('app', this.props)
     return (
       <div className="App">
         <SmurfList />
