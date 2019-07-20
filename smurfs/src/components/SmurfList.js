@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Smurf from './Smurf';
 import AddSmurf from './AddSmurf';
+import './Smurfs.css'
 
 class SmurfList extends React.Component {
     
