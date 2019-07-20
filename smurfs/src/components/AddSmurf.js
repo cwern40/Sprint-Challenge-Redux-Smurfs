@@ -1,4 +1,6 @@
 import React from 'react';
+import addSmurf from '../actions/index';
+import { connect } from 'react-redux';
 
 class AddSmurf extends React.Component {
     constructor() {
@@ -27,4 +29,8 @@ class AddSmurf extends React.Component {
     }
 }
 
-export default AddSmurf
+const mapDispatchToProps = {
+    addSmurf
+}
+
+export default connect(null, mapDispatchToProps)(AddSmurf)
