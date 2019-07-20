@@ -28,7 +28,8 @@ export default function(state = initialState, action) {
       console.log(action.payload);
       return {
         fetchingSmurfs: false,
-        error: null
+        error: null,
+        smurfs: action.payload.data,
       }
     }
     case GET_SMURFS_FAILED: {
