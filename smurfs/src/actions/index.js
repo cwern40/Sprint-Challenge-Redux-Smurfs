@@ -8,6 +8,7 @@ export const ADD_SMURF_START = 'ADD_SMURF_START'
 export const ADD_SMURF_SUCCESS = 'ADD_SMURF_SUCCESS'
 export const ADD_SMURF_FAILED = 'ADD_SMURF_FAILED'
 
+//action of retrieving the smurfs from the server
 export function getSmurfs() {
   return(dispatch) => {
     dispatch({ type: GET_SMURFS_START })
@@ -22,6 +23,7 @@ export function getSmurfs() {
   }
 }
 
+// function to add a smurf to the server
 export function addSmurf(smurf) {
   dispatch({ type: ADD_SMURF_START })
 
