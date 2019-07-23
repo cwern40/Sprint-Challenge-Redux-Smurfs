@@ -1,0 +1,31 @@
+.smurf-list {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 950px;
+}
+
+h1 {
+    width: 100%;
+}
+
+.smurf {
+    margin: 20px;
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    width: 100%;
+    margin: 55px auto;
+}
+
+input {
+    margin: 5px auto;
+    display: block;
+    width: 240px;
+    padding: 5px;
+}
